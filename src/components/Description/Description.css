@@ -1,0 +1,20 @@
+/* DescriptionComponent.css */
+
+.description {
+  font-size: 20px; /* Default font size */
+  line-height: 1.5; /* Default line height */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .description {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .description {
+    font-size: 15px; /* Further adjust font size for even smaller screens */
+  }
+}

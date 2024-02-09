@@ -1,0 +1,60 @@
+/* VcareAboutUsComponent.css */
+
+.vcare-about-us {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vcare-about-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .vcare-about-us h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  .vcare-about-us p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .vcare-about-us h2 {
+      font-size: 24px;
+    }
+    
+    .vcare-about-us h3 {
+      font-size: 20px;
+    }
+  
+    .vcare-about-us p {
+      font-size: 16px;
+    }
+  }
+  
+  /* Media query for even smaller screens */
+  @media (max-width: 480px) {
+    .vcare-about-us h2 {
+      font-size: 20px;
+    }
+    
+    .vcare-about-us h3 {
+      font-size: 18px;
+    }
+  
+    .vcare-about-us p {
+      font-size: 14px;
+    }
+  }
+  

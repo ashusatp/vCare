@@ -1,0 +1,10 @@
+import lab1 from "./lab1.jpg";
+import lab2 from "./lab2.jpg";
+import lab3 from "./lab3.jpg";
+import lab4 from "./lab4.jpg";
+import lab5 from "./lab5.jpg";
+import lab6 from "./lab6.jpg";
+import lab7 from "./lab7.jpg";
+import lab8 from "./lab8.jpg";
+const labImgs = [lab8, lab1, lab2, lab3, lab4, lab5, lab6, lab7];
+export default labImgs;

@@ -1,0 +1,16 @@
+.about {
+  max-width: 800px; /* Set maximum width */
+  padding: 20px; /* Add padding */
+  margin: 0 auto; /* Center the content */
+}
+
+.about .description {
+  margin-bottom: 15px; /* Add spacing between paragraphs */
+}
+
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .about {
+    padding: 10px; /* Decrease padding */
+  }
+}

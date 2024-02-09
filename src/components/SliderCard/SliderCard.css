@@ -1,0 +1,78 @@
+.sliderCardWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Adjust padding as needed */
+  }
+  
+.sliderCard {
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .sliderCard h1 {
+    font-size: 40px;
+  }
+  
+  .sliderCard .description {
+    font-size: 16px;
+    color: #636363;
+  }
+  
+  /* .sliderCard button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  } */
+  .sliderCardButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sliderCardButton:hover {
+    background-color: #0056b3;
+  }
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .sliderCard {
+      padding: 10px;
+    }
+    .sliderCard h1 {
+      font-size: 30px;
+    }
+    .sliderCard .description {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .sliderCard h1 {
+      font-size: 20px;
+    }
+    .sliderCard .description {
+      font-size: 12px;
+    }
+    .sliderCard button {
+      font-size: 14px;
+    }
+  }
+  
